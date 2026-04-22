@@ -1,0 +1,14 @@
+###CSS Selectors
+1. star, wildcard or universal selector (*)
+2. Simple, element or container selectors (tagname)
+3. id selector (#)
+4. class selector (.)
+5. attribute selector  ([ ])
+6. compound selector ()
+7. Pseudo class selectors (:)
+8. Pseudo element selectors (::)
+9. combinators
+a) descendant selectors (speprated by space) div h3{ }
+b) direct child (>) div>h3{}
+c) adjacent sibing (+) div + h3{}
+d)  general siblings (~) div~h3{}                                      

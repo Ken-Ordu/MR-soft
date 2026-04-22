@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Measurements</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        html {
+            font-size: 16px; /* Root element font size */
+        }
+
+        #Fixed {
+            background: rgb(12, 254, 173);
+            /* width: 200px; 
+            height: 150px; */
+
+            /* width: 20pt; /* 20 points (1 point = 1/72 inch) */
+            /* height: 50pt; */ 
+
+            /* width: 2in; /* 2 inches */
+            /* height: 3in; */ 
+
+            /* width: 5cm; 
+            height: 7cm; */
+
+        }
+
+        div {
+            background: rgb(202, 254, 12);
+            width: 50%; /* 50% of the element's parent width */
+            border: 10px solid black; /* 10 pixels of border */
+            font-size: 20px;
+            margin-top: 2em; /* 2 times the element's font size */
+            padding: 2rem; /* 2 times the root element's font size (32px) */
+            height: 50vh;
+        }
+
+        section {
+            background: rgb(128, 213, 25);
+            width: 50vmin;
+            margin: calc(0.5em + 5%);
+        }
+
+        main {
+            background: rgb(128, 213, 115);
+            width: 50vmax;
+        }
+
+        aside {
+            background: dimgrey;
+            width: 250px;
+            min-height: 150px;
+            max-height: 400px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="Fixed">FIXED</div>
+    <div id="div1">DIV 1</div>
+
+    <section>MY SECTION</section>
+
+    <main>my main</main>
+
+    <aside>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Sunt perspiciatis accusamus officiis nam! Ullam ipsam ab voluptatem, 
+        nobis perspiciatis suscipit voluptate omnis repellendus ipsum 
+        totam saepe facilis unde ducimus sapiente maiores mollitia 
+        quos officiis iusto ad aperiam! Quasi esse officia doloribus 
+        facilis voluptatibus eveniet similique, rerum quia molestias, 
+        ipsa recusandae laborum labore quam vel sed dolores, repudiandae 
+        explicabo libero ducimus. Accusamus excepturi deserunt sunt nisi 
+        repellendus ad, dicta consectetur unde impedit delectus deleniti, 
+        minus fuga quidem quisquam, aliquid voluptatum? Magnam harum quas atque, 
+        illo est inventore sed esse porro sit cupiditate eum expedita corporis 
+        ducimus molestias vero optio iure dolores?
+    </aside>
+
+    <p id="par1"></p>
+
+</body>
+</html>
