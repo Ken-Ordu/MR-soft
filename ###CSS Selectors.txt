@@ -7,7 +7,7 @@
 6. compound selector ()
 7. Pseudo class selectors (:)
 8. Pseudo element selectors (::)
-9. combinators
+9. combinators These define the relationship between different selectors
 a) descendant selectors (speprated by space) div h3{ }
 b) direct child (>) div>h3{}
 c) adjacent sibing (+) div + h3{}

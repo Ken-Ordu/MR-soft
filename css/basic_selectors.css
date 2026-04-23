@@ -50,7 +50,7 @@ p {
 
 /* Attribute Selector:
 *  Selects elements based on the presence or value of their attributes.
-*/
+*/                               
 
 /* [type] {
     border: 1px solid #ccc;
@@ -67,7 +67,7 @@ p {
     background-color: gold;
 }
 
-[placeholder="email"] {
+[placeholder="email"] {                                         
     border: 1px solid #ccc;
     background-color: red;
 } */

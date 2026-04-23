@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Grouping ID
+#son, #son1, #son2, #sons {
+    color: bisque  ;
+}
+
+/* Grouping class element  */
+/* .sons, .son1, .son, .sibling2 {
+    text-align: center;
+}   */
+
+/* Grouping attribute */
+/* [type], [placeholder] {
+    color: brown;
+} */ 
+
+/* #brother, .son2, [placeholder="email"] {
+    background-color: #f80;
+    font-style: italic;
+    font-size: x-large;
+} */
+
+.father .son #boy div div h1 b{
+    color: red;
+}

@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic selectors</title>
-    <link rel="stylesheet" href="css/basic_selectors.css">
+    <link rel="stylesheet" href="css/grouping_selectors.css">
+    <!-- <link rel="stylesheet" href="css/basic_selectors.css"> -->
 </head>
 <body>
     <a href="https://addyappss.com">https://addyapps.com</a>
@@ -32,10 +33,16 @@
             <h1>hello grand child</h1>
             <h2>hello 2 grand child</h2>
         </div>
-        <div>
-            hello 3 grand child div
-            <h1>H1 hello 3 grand child <b>btag</b> </h1>
-            <p>hello 3 grand child paragraph</p>
+        <div class="son">
+            <div id="boy">
+                <div>
+                    <div>
+                        hello 3 grand child div
+                        <h1>H1 hello 3 grand child <b>btag</b> </h1>
+                        <p class="son2" id="son2">hello 3 grand child paragraph</p>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div>
@@ -45,9 +52,9 @@
         </div>
     </div>
 
-    <div class="sibling2">fathers brother/sibling 2</div>
+    <div id="sons" class="sibling2">fathers brother/sibling 2</div>
     <div>fathers brother/sibling 3</div>
-    <div>fathers brother/sibling 4</div>
+    <div id="brother">fathers brother/sibling 4</div>
     <div>fathers brother/sibling 5</div>
     <div>fathers brother/sibling 6</div>
     <div>fathers brother/sibling 7</div>
