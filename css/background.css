@@ -1,0 +1,28 @@
+/* background.css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.dim{
+    height: 500px;
+    color: red;
+    padding: 10px;
+}
+
+
+/* background: yellow; */
+.element {
+    background-color:aquamarine;
+}
+
+
+/* background-position:center right; */
+/* background-image: url('/img/car_5.jpg');  */
+/* .element {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/img/car_5.jpg'); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+} */

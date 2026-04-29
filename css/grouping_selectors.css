@@ -25,6 +25,34 @@
     font-size: x-large;
 } */
 
-.father .son #boy div div h1 b{
+/* .father .son #boy div div h1 b{
     color: red;
+} */
+
+/* .father>p {
+    color: red;
+}
+
+.father>.son2 {
+    color: green;
+}
+
+.father>div>h1 {
+    background-color: aqua;
+    color: red;
+}
+
+.father>div>div>h1 {
+    background-color: bisque;
+    color: dimgray;
+} */
+
+/* .father>div>* {
+    background-color: brown;
+    color: chartreuse;
+} */
+
+.father>div>div, h1, h2 {
+    background-color: chartreuse;
+    color: brown;
 }
