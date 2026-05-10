@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLOATS</title>
+
+    <style>
+        .container {
+            background-color: lightgray;
+            /* border: 2px solid rgb(48, 13, 208); */
+            /* Uncomment the following line to observe the issue without clear fix */
+            /* overflow: hidden; */
+        }
+        .float-box {
+            /* float: right; */
+            /* float: left; */
+            /*  */
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+
+            background-color: yellow;
+        }
+
+        .box1 {
+            float: left;
+        }
+
+        .box2 {
+            float: left;
+        }
+
+        .box2 {
+            background-color: rgb(32, 211, 202);
+        }
+
+        .box3 {
+            float: left;
+            background-color: brown;
+        }
+
+        /* .clear-fix::after {
+            content: "";
+            display: block;
+            clear: both;
+        } */ 
+    </style>
+</head>
+<body>
+    <!-- <div class="container"> -->
+        <div class="container clear-fix">
+            <div class="float-box box1">Box1</div>
+            <div class="float-box box2">Box2</div>
+            <div class="float-box box3">Box3</div>
+        </div>
+        <p style="clear: both;"></p>
+
+        <div class="others">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Optio eum, delectus consequuntur, autem nostrum exercitationem 
+            quia facere aliquid possimus sint earum dolorem beatae quisquam 
+            ad sequi repellat dignissimos at error?
+        </div>
+</body>
+</html>
