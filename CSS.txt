@@ -1,0 +1,5 @@
+CSS
+Block level elements are elements that take up the full width of the webpage
+They take up 100% width of the webpage
+
+Inline level elements do not take up 100% width of the webpage
